@@ -14,12 +14,15 @@
 
 [The link to the source for the course](https://github.com/StephenGrider/ElixirCode)
 
+[These are the Elixir docs](https://hexdocs.pm/elixir/Kernel.html)
+
 ## Elixir
 
-Elixir is a functional language that transforms data. It doesn't follow an OO approach. Instance variables will not be set.
-
-- Data is transformed
-- New data is returned
+1. Elixir is a functional language that transforms data. It doesn't follow an OO approach. Instance variables will not be set.
+   - Data is transformed
+   - New data is returned
+2. Elixir is immutable:
+   - `list = [1, 2, 3]; Enum.shuffle(list); list => [1, 2, 3]`
 
 ### Mix
 
